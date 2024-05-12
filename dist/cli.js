@@ -173,7 +173,7 @@ var tauri$3 = {
 		active: false
 	},
 	systemTray: {
-		iconPath: "dina-browser.png",
+		iconPath: "dina.png",
 		iconAsTemplate: false
 	},
 	allowlist: {
@@ -568,8 +568,8 @@ async function mergeConfig(url, options, tauriConf) {
         },
         linux: {
             fileExt: '.png',
-            path: `dina-browser.png`,
-            defaultIcon: 'dina-browser.png',
+            path: `dina.png`,
+            defaultIcon: 'dina.png',
             message: 'Linux icon must be .png and 512x512px.',
         },
         darwin: {
