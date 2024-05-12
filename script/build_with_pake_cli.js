@@ -62,7 +62,7 @@ const main = async () => {
     let iconFile;
     switch (process.platform) {
       case 'linux':
-        iconFile = 'icon.png';
+        iconFile = 'dina.png';
         break;
       case 'darwin':
         iconFile = 'icon.icns';
