@@ -1,7 +1,7 @@
 import { PakeCliOptions } from './types.js';
 
 export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
-  icon: '',
+  icon: 'icon',
   height: 780,
   width: 1200,
   fullscreen: false,
@@ -14,8 +14,8 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
   showSystemTray: false,
   multiArch: false,
   targets: 'deb',
-  useLocalFile: false,
-  systemTrayIcon: '',
+  useLocalFile: true,
+  systemTrayIcon: 'icon',
   debug: false,
   inject: [],
   safeDomain: [],
